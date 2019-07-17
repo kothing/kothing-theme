@@ -66,13 +66,14 @@ lazyimages: "disabled"
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
 
 # Comments
+# Sign up for GitHub Application: https://github.com/settings/applications/new
 comments:
   gitalk: true
-  gitalk_ClientID: 2c2617ce0d0cb54ff37a
-  gitalk_ClientSecret: 36d1e944ce2e9adc3f4f4ab0de927fdc43bf741f
-  gitalk_repo: kothing.github.io
-  gitalk_owner: kothing
-  gitalk_admin: ['kothing']
+  gitalk_ClientID: Your Client ID
+  gitalk_ClientSecret: Your Client Secret
+  gitalk_repo: repo
+  gitalk_owner: owner
+  gitalk_admin: ['admin']
   gitalk_distractionFreeMode: false
 
 # Lang zh-cn
