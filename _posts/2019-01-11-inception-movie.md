@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Inception Movie"
-author: john
+author: lyove
 categories: [ Jekyll, Blog ]
 tags: [red, yellow]
 image: assets/images/11.jpg
