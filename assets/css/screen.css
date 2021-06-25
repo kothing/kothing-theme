@@ -2,16 +2,46 @@
 Template Name: kothing 
 Copyright: kothing, https://www.kothing.com
 */
-@media screen and (min-width:1500px) {
-    html {
-        font-size: 16px;
-    } /* Increase the font size on higher resolutions */
-    .container {
-        max-width: 80%;
-    }
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
 }
-.main-heading {
-    padding: 1rem 0rem;
+
+.h1, h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+}
+.h2, h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.h3, h3 {
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+}
+.h4, h4 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.h5, h5 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.h6, h6 {
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
 
 a {
@@ -715,37 +745,6 @@ ul.tags li a:hover {
     margin-bottom: 1.5rem;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.article-post .h1,
-.article-post .h2,
-.article-post .h3,
-.article-post .h4,
-.article-post .h5,
-.article-post .h6,
-.article-post h1,
-.article-post h2,
-.article-post h3,
-.article-post h4,
-.article-post h5,
-.article-post h6 {
-    font-weight: 700;
-    margin: 0;
-}
-
 .article-post img.shadow {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
@@ -806,6 +805,15 @@ iframe {
 .transpdark {
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
+}
+
+@media screen and (min-width:1500px) {
+    html {
+        font-size: 16px;
+    } /* Increase the font size on higher resolutions */
+    .container {
+        max-width: 80%;
+    }
 }
 
 @media (min-width:768px) {
